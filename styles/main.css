@@ -1,0 +1,125 @@
+nav {
+	background-color: lightgrey;
+	border-bottom: 1px solid grey;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: right;
+}
+
+nav .logo {
+	position: absolute;
+	left: 1%;
+}
+
+nav ul {
+	display: inline-block;
+	margin-right: 1%;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+nav li a {
+	text-decoration: none;
+	font-size: 25px;
+}
+
+nav li a:link, a:visited {
+	color: purple;
+}
+
+nav li a:hover{
+	text-decoration: underline;
+}
+
+main {
+	margin-top: 80px;
+	margin-left: 120px;
+}
+
+#searchForm label {
+	display: block;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+#searchForm input[type=text] {
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+}
+#searchForm button[type="submit"] {
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+#searchForm button[type="submit"] img{
+	width: 25px;
+	height: 30px;
+}
+
+main section {
+	margin-bottom: 50px;
+}
+
+.btnLeft, .btnMid, .btnRight {
+	background-color: white;
+	border: 1px solid lightgrey;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.btnLeft {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	cursor: pointer;
+}
+
+.btnRight {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	cursor: pointer;
+}
+
+.btnMid{
+	border: none;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
+#pageForm {
+	font-size: 0;
+}
+
+.resultsSection p {
+	font-size: 20px;
+}
+
+.resultsSection p a{
+	text-decoration: none;
+	color: blue;
+	margin: 0 5px;
+}
+
+.resultsSection p a:hover{
+	text-decoration: underline;
+}
+
+.resultsSection p a:active{
+	color: black;
+	text-decoration: underline;
+}
+
+.grey{
+	color: grey;
+}
